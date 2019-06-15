@@ -9,6 +9,7 @@
     <Folder Include="EventSourcing\" />
     <Folder Include="Mappings\" />
     <Folder Include="Migrations\" />
+    <Folder Include="UoW\" />
     <Folder Include="Repository\" />
   </ItemGroup>
 

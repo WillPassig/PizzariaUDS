@@ -1,8 +1,0 @@
-I:\git\PizzariaUDS\PizzariaUDS\PizzariaUDS.Infra.Data\bin\Debug\netstandard2.0\PizzariaUDS.Infra.Data.deps.json
-I:\git\PizzariaUDS\PizzariaUDS\PizzariaUDS.Infra.Data\bin\Debug\netstandard2.0\PizzariaUDS.Infra.Data.dll
-I:\git\PizzariaUDS\PizzariaUDS\PizzariaUDS.Infra.Data\bin\Debug\netstandard2.0\PizzariaUDS.Infra.Data.pdb
-I:\git\PizzariaUDS\PizzariaUDS\PizzariaUDS.Infra.Data\obj\Debug\netstandard2.0\PizzariaUDS.Infra.Data.csproj.CoreCompileInputs.cache
-I:\git\PizzariaUDS\PizzariaUDS\PizzariaUDS.Infra.Data\obj\Debug\netstandard2.0\PizzariaUDS.Infra.Data.AssemblyInfoInputs.cache
-I:\git\PizzariaUDS\PizzariaUDS\PizzariaUDS.Infra.Data\obj\Debug\netstandard2.0\PizzariaUDS.Infra.Data.AssemblyInfo.cs
-I:\git\PizzariaUDS\PizzariaUDS\PizzariaUDS.Infra.Data\obj\Debug\netstandard2.0\PizzariaUDS.Infra.Data.dll
-I:\git\PizzariaUDS\PizzariaUDS\PizzariaUDS.Infra.Data\obj\Debug\netstandard2.0\PizzariaUDS.Infra.Data.pdb
