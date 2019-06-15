@@ -15,21 +15,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzariaUDS.Domain", "Pizza
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzariaUDS.Domain.Core", "PizzariaUDS.Domain.Core\PizzariaUDS.Domain.Core.csproj", "{E5A4C05C-6E60-43EF-B93B-7F6ADEEBE2EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzariaUDS.Application", "PizzariaUDS.Application\PizzariaUDS.Application.csproj", "{25259365-3850-43C0-9345-E6A761407D22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzariaUDS.Application", "PizzariaUDS.Application\PizzariaUDS.Application.csproj", "{25259365-3850-43C0-9345-E6A761407D22}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{649625AC-7574-4E29-9CCC-A506A65E5849}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{6602B95C-240E-4A16-AA2F-199BB851DD01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzariaUDS.Infra.Data", "PizzariaUDS.Infra.Data\PizzariaUDS.Infra.Data.csproj", "{4E382EF7-E21D-472E-978E-99676E4C2E98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzariaUDS.Infra.Data", "PizzariaUDS.Infra.Data\PizzariaUDS.Infra.Data.csproj", "{4E382EF7-E21D-472E-978E-99676E4C2E98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzariaUDS.Infra.CrossCutting.Identity", "PizzariaUDS.Infra.CrossCutting.Identity\PizzariaUDS.Infra.CrossCutting.Identity.csproj", "{3930FAF9-10DD-4153-9A4F-4D4F1FA4FFC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzariaUDS.Infra.CrossCutting.Identity", "PizzariaUDS.Infra.CrossCutting.Identity\PizzariaUDS.Infra.CrossCutting.Identity.csproj", "{3930FAF9-10DD-4153-9A4F-4D4F1FA4FFC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzariaUDS.Infra.CrossCutting.Bus", "PizzariaUDS.Infra.CrossCutting.Bus\PizzariaUDS.Infra.CrossCutting.Bus.csproj", "{866CBB2B-F0CC-46A5-B7E5-793178449D19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzariaUDS.Infra.CrossCutting.Bus", "PizzariaUDS.Infra.CrossCutting.Bus\PizzariaUDS.Infra.CrossCutting.Bus.csproj", "{866CBB2B-F0CC-46A5-B7E5-793178449D19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzariaUDS.Infra.CrossCutting.IoC", "PizzariaUDS.Infra.CrossCutting.IoC\PizzariaUDS.Infra.CrossCutting.IoC.csproj", "{C37F63D0-F8F9-48D4-80C2-6284B22B7AC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzariaUDS.Infra.CrossCutting.IoC", "PizzariaUDS.Infra.CrossCutting.IoC\PizzariaUDS.Infra.CrossCutting.IoC.csproj", "{C37F63D0-F8F9-48D4-80C2-6284B22B7AC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzariaUDS.Services.API", "PizzariaUDS.Services.API\PizzariaUDS.Services.API.csproj", "{9445F49B-A9DC-4B3C-AD1C-6B99E97178B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzariaUDS.Services.API", "PizzariaUDS.Services.API\PizzariaUDS.Services.API.csproj", "{9445F49B-A9DC-4B3C-AD1C-6B99E97178B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{16C6C183-2F16-43CC-8C10-6CEC9511BA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzariaUDS.Domain.Tests", "PizzariaUDS.Domain.Tests\PizzariaUDS.Domain.Tests.csproj", "{78BE32FF-FD5E-4B4A-B99A-2FECEEEB7756}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,10 @@ Global
 		{9445F49B-A9DC-4B3C-AD1C-6B99E97178B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9445F49B-A9DC-4B3C-AD1C-6B99E97178B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9445F49B-A9DC-4B3C-AD1C-6B99E97178B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78BE32FF-FD5E-4B4A-B99A-2FECEEEB7756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78BE32FF-FD5E-4B4A-B99A-2FECEEEB7756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78BE32FF-FD5E-4B4A-B99A-2FECEEEB7756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78BE32FF-FD5E-4B4A-B99A-2FECEEEB7756}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +92,7 @@ Global
 		{866CBB2B-F0CC-46A5-B7E5-793178449D19} = {6602B95C-240E-4A16-AA2F-199BB851DD01}
 		{C37F63D0-F8F9-48D4-80C2-6284B22B7AC2} = {6602B95C-240E-4A16-AA2F-199BB851DD01}
 		{9445F49B-A9DC-4B3C-AD1C-6B99E97178B1} = {400FAEC9-209F-4EE9-9AB1-731079033C41}
+		{78BE32FF-FD5E-4B4A-B99A-2FECEEEB7756} = {16C6C183-2F16-43CC-8C10-6CEC9511BA86}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3054E70C-F93C-4ADB-B6C9-3AC3A19E4460}
