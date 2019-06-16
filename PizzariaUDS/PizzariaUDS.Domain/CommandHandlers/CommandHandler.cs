@@ -1,4 +1,9 @@
-﻿using System;
+﻿using MediatR;
+using PizzariaUDS.Domain.Core.Bus;
+using PizzariaUDS.Domain.Core.Commands;
+using PizzariaUDS.Domain.Core.Notifications;
+using PizzariaUDS.Domain.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
