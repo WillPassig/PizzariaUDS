@@ -9,13 +9,6 @@ namespace PizzariaUDS.Domain.Models
     {
         public Pizza Pizza { get; set; }
 
-        public double TotalPrice { get; set; }
-
-        public int EstimatedPreparationTime { get; set; }
-
-        public Order()
-        {
-
-        }
+        protected Order() { }
     }
 }
