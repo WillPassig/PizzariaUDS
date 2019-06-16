@@ -1,4 +1,5 @@
-﻿using PizzariaUDS.Domain.Core.Events;
+﻿using Newtonsoft.Json;
+using PizzariaUDS.Domain.Core.Events;
 using PizzariaUDS.Domain.Interfaces;
 using PizzariaUDS.Infra.Data.Repository.EventSourcing;
 using System;
