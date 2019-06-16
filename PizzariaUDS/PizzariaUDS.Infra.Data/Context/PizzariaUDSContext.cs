@@ -15,7 +15,7 @@ namespace PizzariaUDS.Infra.Data.Context
             _env = env;
         }
 
-        public DbSet<Order> Customers { get; set; }
+        public DbSet<Order> Orders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

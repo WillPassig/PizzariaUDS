@@ -31,7 +31,7 @@ namespace PizzariaUDS.Infra.Data.Mappings
                 .IsRequired();
 
             builder.Property(o => o.Pizza.Customizations)
-                .HasColumnName("Customizations");
+                .HasColumnName("PizzaCustomizations");
         }
     }
 }
