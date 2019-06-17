@@ -8,8 +8,8 @@ namespace PizzariaUDS.Domain.Models.Pizzas
     //Apesar do projeto e sua estrutura estarem em inglês, em um projeto real de maior escopo estes valores não ficariam armazenados neste enum e sim em uma tabela do banco de dados como uma própria entidade sabor
     public enum PizzaFlavor
     {
-        CALABRESA,
-        MARGUERITA,
-        PORTUGUESA
+        CALABRESA = 1,
+        MARGUERITA = 2,
+        PORTUGUESA = 3
     }
 }

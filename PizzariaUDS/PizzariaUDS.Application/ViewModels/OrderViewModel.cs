@@ -1,5 +1,6 @@
 ﻿using PizzariaUDS.Domain.Models.Pizzas;
 using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
@@ -11,28 +12,18 @@ namespace PizzariaUDS.Application.ViewModels
         public Guid Id { get; set; }
 
         [Required]
-        [DisplayName("Price")]
-        [Range(0, double.MaxValue)]
-        public string Price { get; set; }
-
-        [Required]
-        [DisplayName("EstimatedPreparationTime")]
-        [Range(0, int.MaxValue)]
-        public string EstimatedPreparationTime { get; set; }
-
-        [Required]
         [EnumDataType(typeof(PizzaSize))]
         [DisplayName("PizzaSize")]
-        public string PizzaSize { get; set; }
+        public PizzaSize PizzaSize { get; set; }
 
         [Required]
         [EnumDataType(typeof(PizzaFlavor))]
         [DisplayName("PizzaFlavor")]
-        public string PizzaFlavor { get; set; }
+        public PizzaFlavor PizzaFlavor { get; set; }
 
         [Required]
         [DisplayName("PizzaCustomizations")]
-        public string PizzaCustomizations { get; set; }
+        public List<PizzaCustomization> PizzaCustomizations { get; set; }
 
     }
 }
