@@ -7,8 +7,21 @@
 
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App"/>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.1.1" />
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\PizzariaUDS.Application\PizzariaUDS.Application.csproj" />
+    <ProjectReference Include="..\PizzariaUDS.Infra.CrossCutting.Identity\PizzariaUDS.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\PizzariaUDS.Infra.CrossCutting.IoC\PizzariaUDS.Infra.CrossCutting.IoC.csproj" />
   </ItemGroup>
 
 </Project>

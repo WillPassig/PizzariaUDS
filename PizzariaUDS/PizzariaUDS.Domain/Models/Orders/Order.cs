@@ -9,6 +9,13 @@ namespace PizzariaUDS.Domain.Models
     {
         public Pizza Pizza { get; set; }
 
+        public Order(Guid id, Pizza pizza)
+        {
+            Id = id;
+            Pizza = pizza;
+        }
+
+        // Empty constructor for EF
         protected Order() { }
     }
 }
