@@ -9,12 +9,8 @@ namespace PizzariaUDS.Infra.Data.Context
     public class EventStoreSQLContext : DbContext
     {
         public DbSet<StoredEvent> StoredEvent { get; set; }
-        private readonly IHostingEnvironment _env;
 
-        public EventStoreSQLContext(IHostingEnvironment env)
-        {
-            _env = env;
-        }
+        public EventStoreSQLContext() { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -28,7 +24,6 @@ namespace PizzariaUDS.Infra.Data.Context
         {
             // get the configuration from the app settings
             var config = new ConfigurationBuilder()
-                .SetBasePath(_env.ContentRootPath)
                 .AddJsonFile("appsettings.json")
                 .Build();
 

@@ -3,6 +3,8 @@ using FluentValidation.Results;
 using PizzariaUDS.Domain.Core.Models;
 using PizzariaUDS.Domain.Models.Pizzas;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
 
 namespace PizzariaUDS.Domain.Models
 {
@@ -12,6 +14,7 @@ namespace PizzariaUDS.Domain.Models
         
         public PizzaFlavor Flavor { get; set; }
 
+        [NotMapped]
         public List<PizzaCustomization> Customizations { get; set; }
 
         public double Price { get; set; }

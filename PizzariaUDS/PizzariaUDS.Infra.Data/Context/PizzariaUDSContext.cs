@@ -9,18 +9,14 @@ namespace PizzariaUDS.Infra.Data.Context
 {
     public class PizzariaUDSContext : DbContext
     {
-        private readonly IHostingEnvironment _env;
-
-        public PizzariaUDSContext(IHostingEnvironment env)
-        {
-            _env = env;
-        }
+        public PizzariaUDSContext() { }
 
         public DbSet<Order> Orders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new OrderMap());
+            modelBuilder.ApplyConfiguration(new PizzaMap());
 
             base.OnModelCreating(modelBuilder);
         }
@@ -29,7 +25,6 @@ namespace PizzariaUDS.Infra.Data.Context
         {
             // get the configuration from the app settings
             var config = new ConfigurationBuilder()
-                .SetBasePath(_env.ContentRootPath)
                 .AddJsonFile("appsettings.json")
                 .Build();
 

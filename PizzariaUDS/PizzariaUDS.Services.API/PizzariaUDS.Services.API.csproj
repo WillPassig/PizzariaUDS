@@ -24,4 +24,11 @@
     <ProjectReference Include="..\PizzariaUDS.Infra.CrossCutting.IoC\PizzariaUDS.Infra.CrossCutting.IoC.csproj" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

@@ -14,24 +14,7 @@ namespace PizzariaUDS.Infra.Data.Mappings
             builder.Property(o => o.Id)
                 .HasColumnName("Id");
 
-            builder.Property(o => o.Pizza.Price)
-                .HasColumnName("Bill")
-                .IsRequired();
-
-            builder.Property(o => o.Pizza.EstimatedPreparationTime)
-                .HasColumnName("EstimatedPreparationTime")
-                .IsRequired();
-
-            builder.Property(o => o.Pizza.Size)
-                .HasColumnName("PizzaSize")
-                .IsRequired();
-
-            builder.Property(o => o.Pizza.Flavor)
-                .HasColumnName("PizzaFlavor")
-                .IsRequired();
-
-            builder.Property(o => o.Pizza.Customizations)
-                .HasColumnName("PizzaCustomizations");
+            builder.OwnsOne(o => o.Pizza);
         }
     }
 }
