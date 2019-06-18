@@ -21,7 +21,6 @@ namespace PizzariaUDS.Application.ViewModels
         [DisplayName("PizzaFlavor")]
         public PizzaFlavor PizzaFlavor { get; set; }
 
-        [Required]
         [DisplayName("PizzaCustomizations")]
         public List<PizzaCustomization> PizzaCustomizations { get; set; }
 
