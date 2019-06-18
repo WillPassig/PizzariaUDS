@@ -44,7 +44,7 @@ namespace PizzariaUDS.Services.API.Controllers
         }
 
         [HttpPost]
-        [Authorize(Policy = "CanWriteOrderData")]
+        [AllowAnonymous]
         [Route("order")]
         public IActionResult Post([FromBody]OrderViewModel OrderViewModel)
         {
@@ -60,7 +60,7 @@ namespace PizzariaUDS.Services.API.Controllers
         }
 
         [HttpPut]
-        [Authorize(Policy = "CanWriteOrderData")]
+        [AllowAnonymous]
         [Route("order")]
         public IActionResult Put([FromBody]OrderViewModel OrderViewModel)
         {
@@ -76,7 +76,7 @@ namespace PizzariaUDS.Services.API.Controllers
         }
 
         [HttpDelete]
-        [Authorize(Policy = "CanRemoveOrderData")]
+        [AllowAnonymous]
         [Route("order")]
         public IActionResult Delete(Guid id)
         {
